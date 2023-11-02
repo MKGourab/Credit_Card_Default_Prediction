@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Input Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #7584e7;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        
+        form {
+            max-width: 800px; /* Increased width to fit columns */
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            display: grid; /* Use CSS Grid for columns */
+            grid-template-columns: repeat(4, 1fr); /* Four columns with equal width */
+            gap: 20px; /* Add some space between the columns */
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+        
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            grid-column: span 4; /* Make the Submit button span all four columns */
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Data Input Form</h1>
+    <form action="/predict" method="POST">
+       
+        <div>
+            <label for="LIMIT_BAL">LIMIT_BAL:</label>
+            <input type="number" name="LIMIT_BAL" required>
+        
+            <label for="SEX">SEX:</label>
+            <select name="SEX" required>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+            </select>
+        
+            <label for="AGE">AGE:</label>
+            <input type="number" name="AGE" required>
+        
+            <label for="EDUCATION">EDUCATION:</label>
+            <select name="EDUCATION" required>
+                <option value="university">University</option>
+                <option value="graduate school">Graduate School</option>
+                <option value="high school">High School</option>
+                <option value="unknown">Unknown</option>
+                <option value="others">Others</option>
+            </select>
+        
+            <label for="MARRIAGE">MARRIAGE:</label>
+            <select name="MARRIAGE" required>
+                <option value="married">Married</option>
+                <option value="single">Single</option>
+                <option value="others">Others</option>
+            </select>
+        </div>
+        
+        <div>
+            <label for="BILL_AMT1">BILL_AMT1:</label>
+            <input type="number" name="BILL_AMT1" required>
+        
+            <label for="BILL_AMT2">BILL_AMT2:</label>
+            <input type="number" name="BILL_AMT2" required>
+        
+            <label for="BILL_AMT3">BILL_AMT3:</label>
+            <input type="number" name="BILL_AMT3" required>
+        
+            <label for="BILL_AMT4">BILL_AMT4:</label>
+            <input type="number" name="BILL_AMT4" required>
+        
+            <label for="BILL_AMT5">BILL_AMT5:</label>
+            <input type="number" name="BILL_AMT5" required>
+        
+            <label for="BILL_AMT6">BILL_AMT6:</label>
+            <input type="number" name="BILL_AMT6" required>
+        </div>
+        
+        
+        <div>
+            <label for="PAY_AMT1">PAY_AMT1:</label>
+            <input type="number" name="PAY_AMT1" required>
+        
+            <label for="PAY_AMT2">PAY_AMT2:</label>
+            <input type="number" name="PAY_AMT2" required>
+        
+            <label for="PAY_AMT3">PAY_AMT3:</label>
+            <input type="number" name="PAY_AMT3" required>
+        
+            <label for="PAY_AMT4">PAY_AMT4:</label>
+            <input type="number" name="PAY_AMT4" required>
+        
+            <label for="PAY_AMT5">PAY_AMT5:</label>
+            <input type="number" name="PAY_AMT5" required>
+        
+            <label for="PAY_AMT6">PAY_AMT6:</label>
+            <input type="number" name="PAY_AMT6" required>
+        </div>
+        
+       
+        <div>
+            <label for="PAY_1">PAY_1:</label>
+            <select name="PAY_1" required>
+                <option value="pay duly">Pay Duly</option>
+                <option value="payment delay for 1 month">Payment Delay for 1 Month</option>
+                <option value="payment delay for 2 months">Payment Delay for 2 Months</option>
+                <option value="payment delay for 3 months">Payment Delay for 3 Months</option>
+                <option value="payment delay for 4 months">Payment Delay for 4 Months</option>
+                <option value="payment delay for 5 months">Payment Delay for 5 Months</option>
+                <option value="payment delay for 6 months">Payment Delay for 6 Months</option>
+                <option value="payment delay for 7 months">Payment Delay for 7 Months</option>
+                <option value="payment delay for 8 months">Payment Delay for 8 Months</option>
+            </select>
+        
+            <label for="PAY_2">PAY_2:</label>
+            <select name="PAY_2" required>
+                <option value="pay duly">Pay Duly</option>
+                <option value="payment delay for 1 month">Payment Delay for 1 Month</option>
+                <option value="payment delay for 2 months">Payment Delay for 2 Months</option>
+                <option value="payment delay for 3 months">Payment Delay for 3 Months</option>
+                <option value="payment delay for 4 months">Payment Delay for 4 Months</option>
+                <option value="payment delay for 5 months">Payment Delay for 5 Months</option>
+                <option value="payment delay for 6 months">Payment Delay for 6 Months</option>
+                <option value="payment delay for 7 months">Payment Delay for 7 Months</option>
+                <option value="payment delay for 8 months">Payment Delay for 8 Months</option>
+            </select>
+        
+            <label for="PAY_3">PAY_3:</label>
+            <select name="PAY_3" required>
+                <option value="pay duly">Pay Duly</option>
+                <option value="payment delay for 1 month">Payment Delay for 1 Month</option>
+                <option value="payment delay for 2 months">Payment Delay for 2 Months</option>
+                <option value="payment delay for 3 months">Payment Delay for 3 Months</option>
+                <option value="payment delay for 4 months">Payment Delay for 4 Months</option>
+                <option value="payment delay for 5 months">Payment Delay for 5 Months</option>
+                <option value="payment delay for 6 months">Payment Delay for 6 Months</option>
+                <option value="payment delay for 7 months">Payment Delay for 7 Months</option>
+                <option value="payment delay for 8 months">Payment Delay for 8 Months</option>
+            </select>
+        
+            <label for="PAY_4">PAY_4:</label>
+            <select name="PAY_4" required>
+                <option value="pay duly">Pay Duly</option>
+                <option value="payment delay for 1 month">Payment Delay for 1 Month</option>
+                <option value="payment delay for 2 months">Payment Delay for 2 Months</option>
+                <option value="payment delay for 3 months">Payment Delay for 3 Months</option>
+                <option value="payment delay for 4 months">Payment Delay for 4 Months</option>
+                <option value="payment delay for 5 months">Payment Delay for 5 Months</option>
+                <option value="payment delay for 6 months">Payment Delay for 6 Months</option>
+                <option value="payment delay for 7 months">Payment Delay for 7 Months</option>
+                <option value="payment delay for 8 months">Payment Delay for 8 Months</option>
+            </select>
+        
+            <label for="PAY_5">PAY_5:</label>
+            <select name="PAY_5" required>
+                <option value="pay duly">Pay Duly</option>
+                <option value="payment delay for 1 month">Payment Delay for 1 Month</option>
+                <option value="payment delay for 2 months">Payment Delay for 2 Months</option>
+                <option value="payment delay for 3 months">Payment Delay for 3 Months</option>
+                <option value="payment delay for 4 months">Payment Delay for 4 Months</option>
+                <option value="payment delay for 5 months">Payment Delay for 5 Months</option>
+                <option value="payment delay for 6 months">Payment Delay for 6 Months</option>
+                <option value="payment delay for 7 months">Payment Delay for 7 Months</option>
+                <option value="payment delay for 8 months">Payment Delay for 8 Months</option>
+            </select>
+        
+            <label for="PAY_6">PAY_6:</label>
+            <select name="PAY_6" required>
+                <option value="pay duly">Pay Duly</option>
+                <option value="payment delay for 1 month">Payment Delay for 1 Month</option>
+                <option value="payment delay for 2 months">Payment Delay for 2 Months</option>
+                <option value="payment delay for 3 months">Payment Delay for 3 Months</option>
+                <option value="payment delay for 4 months">Payment Delay for 4 Months</option>
+                <option value="payment delay for 5 months">Payment Delay for 5 Months</option>
+                <option value="payment delay for 6 months">Payment Delay for 6 Months</option>
+                <option value="payment delay for 7 months">Payment Delay for 7 Months</option>
+                <option value="payment delay for 8 months">Payment Delay for 8 Months</option>
+            </select>
+        </div>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

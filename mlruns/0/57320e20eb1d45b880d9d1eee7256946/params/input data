@@ -1,0 +1,4 @@
+    SEX   EDUCATION MARRIAGE     PAY_1     PAY_2                       PAY_3  ... PAY_AMT1 PAY_AMT2 PAY_AMT3  PAY_AMT4  PAY_AMT5  PAY_AMT6
+0  male  university  married  pay duly  pay duly  payment delay for 3 months  ...    100.0    100.0     70.0      30.0      55.0      45.0
+
+[1 rows x 23 columns]

@@ -1,0 +1,15 @@
+artifact_uri: file:///A:/FSDS_Project/Creditcard_defaulter/mlruns/0/8e01729fe7ff49d789166da73b16c3ba/artifacts
+end_time: 1689863196798
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8e01729fe7ff49d789166da73b16c3ba
+run_name: monumental-quail-964
+run_uuid: 8e01729fe7ff49d789166da73b16c3ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1689863196733
+status: 3
+tags: []
+user_id: binay

@@ -1,0 +1,15 @@
+artifact_uri: file:///A:/FSDS_Project/Creditcard_defaulter/mlruns/0/af42d25d540b473dae45a7f50ea9141b/artifacts
+end_time: 1693282609674
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: af42d25d540b473dae45a7f50ea9141b
+run_name: efficient-calf-547
+run_uuid: af42d25d540b473dae45a7f50ea9141b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693282609545
+status: 3
+tags: []
+user_id: binay

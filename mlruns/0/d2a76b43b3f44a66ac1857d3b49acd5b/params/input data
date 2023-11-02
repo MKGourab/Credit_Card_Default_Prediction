@@ -1,0 +1,4 @@
+      SEX   EDUCATION MARRIAGE     PAY_1     PAY_2     PAY_3  ... PAY_AMT1 PAY_AMT2 PAY_AMT3  PAY_AMT4  PAY_AMT5  PAY_AMT6
+0  female  university  married  pay duly  pay duly  pay duly  ...   1988.0   1111.0   1111.0    1888.0    1999.0    1999.0
+
+[1 rows x 23 columns]

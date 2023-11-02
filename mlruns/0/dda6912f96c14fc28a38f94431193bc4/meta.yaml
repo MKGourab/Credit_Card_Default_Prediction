@@ -1,0 +1,15 @@
+artifact_uri: file:///A:/FSDS_Project/Creditcard_defaulter/mlruns/0/dda6912f96c14fc28a38f94431193bc4/artifacts
+end_time: 1688442356415
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dda6912f96c14fc28a38f94431193bc4
+run_name: gaudy-deer-777
+run_uuid: dda6912f96c14fc28a38f94431193bc4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688442356294
+status: 3
+tags: []
+user_id: binay

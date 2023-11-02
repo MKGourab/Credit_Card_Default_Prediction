@@ -1,0 +1,4 @@
+      SEX   EDUCATION MARRIAGE                       PAY_1                       PAY_2  ... PAY_AMT2 PAY_AMT3 PAY_AMT4 PAY_AMT5  PAY_AMT6
+0  female  university  married  payment delay for 8 months  payment delay for 7 months  ...      1.0      1.0      1.0      1.0       1.0
+
+[1 rows x 23 columns]

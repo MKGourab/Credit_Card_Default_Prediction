@@ -1,0 +1,15 @@
+artifact_uri: file:///A:/FSDS_Project/Creditcard_defaulter/mlruns/0/e54f11188dbb4c3583e6cc7526df3f6f/artifacts
+end_time: 1692174569099
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e54f11188dbb4c3583e6cc7526df3f6f
+run_name: capable-stork-179
+run_uuid: e54f11188dbb4c3583e6cc7526df3f6f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692174568949
+status: 3
+tags: []
+user_id: binay

@@ -7,4 +7,4 @@ scikit-learn==1.3.0
 pyproj
 -e .
 mlflow
-urllib3
+urllib3==1.26.6

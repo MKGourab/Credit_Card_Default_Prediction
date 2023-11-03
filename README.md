@@ -43,7 +43,7 @@ Before you begin, make sure you have the following requirements:
 
     1. **Clone the repository**:
 
-        git clone <https://github.com/MKGourab/Credit_Card_Default_Prediction
+        git clone <https://github.com/MKGourab/Credit_Card_Default_Prediction>
 
         cd your-repo-name
 

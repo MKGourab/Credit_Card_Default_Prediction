@@ -6,28 +6,30 @@ most prominent threats faced by commercial banks is predicting the credit risk o
 develop a predictive model that can estimate the probability of credit default based on the characteristics of credit card owners and 
 their payment history.
 
-##Project Stages
+Dataset: <https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset>
 
-1. Data Exploration:
+## Project Stages
+
+### 1. Data Exploration:
   - Understand the dataset by analyzing its structure, patterns, and potential issues.
   - Identify anomalies and missing data that might affect model performance.
 
-2. Data Cleaning:
+### 2. Data Cleaning:
   - Preprocess the dataset to handle missing values, outliers, and data inconsistencies.
   - Ensure the data is in the right format for modeling.
 
-3. Feature Engineering:
+### 3. Feature Engineering:
   - Select, transform, or create features that enhance credit default prediction.
   - Use domain knowledge and data analysis to extract valuable information.
 
-4. Model Building:
+### 4. Model Building:
   - Experiment with various machine learning algorithms, such as logistic regression, random forests, and support vector machines.
   - Identify the most suitable model for credit default prediction.
 
-5. Model Testing:
+### 5. Model Testing:
   - Evaluate model performance using relevant metrics to ensure accurate predictions.
 
-6. Deployment:
+### 6. Deployment:
   - Deploy the chosen model to a production environment, leveraging cloud platforms like AWS Elastic Beanstalk or EC2.
   - Create an API for users to input data and receive credit default predictions.
 
@@ -41,7 +43,7 @@ Before you begin, make sure you have the following requirements:
 
     1. **Clone the repository**:
 
-        git clone <https://github.com/MKGourab/
+        git clone <https://github.com/MKGourab/Credit_Card_Default_Prediction
 
         cd your-repo-name
 
